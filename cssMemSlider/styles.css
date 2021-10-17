@@ -27,6 +27,7 @@ body {
   max-width: 550px;
   position: relative;
   margin: auto;
+  margin-right: 10px;
   }
 
   .slides {
