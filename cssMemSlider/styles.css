@@ -145,21 +145,11 @@ img {
 .fade {
   position: relative;
   animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  0%   {left:10%;}
-  25%  {left:50px;}
-  50%  {left:25px;}
-  75%  {left:10px;}
-  100% {left:0px;}
+  animation-timing-function: ease-out;
+  animation-duration: 0.5s;
 }
 
 @keyframes fade {
   0%   {left:100px;}
-  25%  {left:50px;}
-  50%  {left:25px;}
-  75%  {left:10px;}
   100% {left:0px;}
 }
